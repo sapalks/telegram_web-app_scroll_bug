@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const arr = new Array(200).fill(<div>1</div>)
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        {arr}
         <a
           className="App-link"
           href="https://reactjs.org"
