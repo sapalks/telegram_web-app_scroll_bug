@@ -3,10 +3,10 @@
   background-color: #282c34;
 }
 
-.bad-scroll{
-max-height: 100vh;
-overflow-y: scroll;
-background-color: brown !important;
+.bad-scroll {
+  max-height: 100vh;
+  overflow-y: scroll;
+  background-color: brown !important;
 }
 
 .App-logo {
