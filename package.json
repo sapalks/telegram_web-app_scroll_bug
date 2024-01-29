@@ -4,6 +4,8 @@
   "homepage": "https://sapalks.github.io/telegram_web-app_scroll_bug",
   "private": true,
   "dependencies": {
+    "@picovoice/picovoice-react": "^3.0.3",
+    "@picovoice/web-voice-processor": "^4.0.8",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

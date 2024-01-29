@@ -1,0 +1,11 @@
+.video__wrapper {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video__list {
+  display: flex;
+  gap: 20px;
+}

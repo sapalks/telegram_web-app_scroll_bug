@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useCallback } from "react";
+import Audio from "./Audio/Audio";
 import React from "react";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <Audio />
       <header className="App-header">
         <button onClick={onClick}>Change scroll mode</button>
         <img src={logo} className="App-logo" alt="logo" />
